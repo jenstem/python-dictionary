@@ -54,3 +54,6 @@ Label(frame3, text="Antonym: ", font=("Arial 14 bold")).pack(side=LEFT)
 antonym = Label(frame3, text="", font=("Arial 14"),wraplength=1000)
 antonym.pack()
 frame3.pack(pady=15)
+
+Button(root, text="Submit", font=("Arial 15 bold"), command=dict).pack()
+root.mainloop()
