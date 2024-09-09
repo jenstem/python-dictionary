@@ -23,10 +23,11 @@ frame = Frame(root)
 '''
 This frame is used to take the input from the user
 '''
-Label(frame, text="Enter Word", font=("Arial 20 bold")).pack(side=LEFT)
+Label(frame, text="Enter Word:", font=("Arial 20 bold")).pack(side=LEFT)
 word = Entry(frame, font=("Arial 20 bold"))
 word.pack()
 frame.pack(pady=10)
+Button(root, text="Submit", font=("Arial 18 bold"), command=dict).place(x=800, y=73)
 
 frame1 = Frame(root)
 '''
@@ -55,5 +56,4 @@ antonym = Label(frame3, text="", font=("Arial 18"),wraplength=1000)
 antonym.pack()
 frame3.pack(pady=15)
 
-Button(root, text="Submit", font=("Arial 18 bold"), command=dict).pack()
 root.mainloop()
