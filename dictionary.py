@@ -36,3 +36,12 @@ Label(frame1, text="Meaning: ", font=("Arial 14 bold")).pack(side=LEFT)
 meaning = Label(frame1, text="", font=("Arial 14"),wraplength=1000)
 meaning.pack()
 frame1.pack(pady=15)
+
+frame2 = Frame(root)
+'''
+This frame is used to display the synonym of the word
+'''
+Label(frame2, text="Synonym: ", font=("Arial 14 bold")).pack(side=LEFT)
+synonym = Label(frame2, text="", font=("Arial 14"),wraplength=1000)
+synonym.pack()
+frame2.pack(pady=15)
