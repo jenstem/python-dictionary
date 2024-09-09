@@ -45,3 +45,12 @@ Label(frame2, text="Synonym: ", font=("Arial 14 bold")).pack(side=LEFT)
 synonym = Label(frame2, text="", font=("Arial 14"),wraplength=1000)
 synonym.pack()
 frame2.pack(pady=15)
+
+frame3 = Frame(root)
+'''
+This frame is used to display the antonym of the word
+'''
+Label(frame3, text="Antonym: ", font=("Arial 14 bold")).pack(side=LEFT)
+antonym = Label(frame3, text="", font=("Arial 14"),wraplength=1000)
+antonym.pack()
+frame3.pack(pady=15)
