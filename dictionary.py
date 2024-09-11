@@ -33,7 +33,7 @@ frame1 = Frame(root)
 '''
 This frame is used to display the meaning of the word
 '''
-Label(frame1, text="Meaning: ", font=("Arial 18 bold")).pack(side=LEFT)
+Label(frame1, text="Meaning: ", font=("Arial 18 bold")).pack(side=TOP)
 meaning = Label(frame1, text="", font=("Arial 18"),wraplength=600)
 meaning.pack()
 frame1.pack(pady=15)
@@ -42,7 +42,7 @@ frame2 = Frame(root)
 '''
 This frame is used to display the synonym of the word
 '''
-Label(frame2, text="Synonym: ", font=("Arial 18 bold")).pack(side=LEFT)
+Label(frame2, text="Synonym: ", font=("Arial 18 bold")).pack(side=TOP)
 synonym = Label(frame2, text="", font=("Arial 18"),wraplength=600)
 synonym.pack()
 frame2.pack(pady=15)
@@ -51,7 +51,7 @@ frame3 = Frame(root)
 '''
 This frame is used to display the antonym of the word
 '''
-Label(frame3, text="Antonym: ", font=("Arial 18 bold")).pack(side=LEFT)
+Label(frame3, text="Antonym: ", font=("Arial 18 bold")).pack(side=TOP)
 antonym = Label(frame3, text="", font=("Arial 18"),wraplength=600)
 antonym.pack()
 frame3.pack(pady=15)
